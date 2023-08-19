@@ -1,0 +1,104 @@
+
+/* hero section styling */
+.hero-background-image{
+    z-index: -1;
+    position: absolute;
+    background-position: center center;
+    background-size: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+#browse-dashboard video{
+    object-fit:fill
+
+}
+
+@media (max-width: 750px){
+    .hero-background-image{
+        width: auto;
+        height: 80vh;
+    }
+}
+
+.shadow-layer{
+    background: -webkit-linear-gradient(13deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 85%);
+    /*background: -moz- oldlinear-gradient(13deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 85%);*/
+    background: -o-linear-gradient(13deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 85%);
+    background: linear-gradient(77deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 85%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 26.09%;
+    bottom: 0;
+    opacity: 1;
+    z-index: -1;
+    -webkit-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+#browse-dashboard{
+    padding-top: 120px;
+}
+@media (max-width: 600px){
+    #browse-dashboard .text-container{
+        width: 100%;
+        margin-left: 10px;
+    }
+}
+#browse-dashboard .show-logo{
+    max-width:380px;
+}
+#browse-dashboard .ranking svg{
+    width: 25px;
+}
+#browse-dashboard .ranking span{
+    color: #fff;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+    margin-top: .1vw;
+}
+#browse-dashboard .synopsis p{
+    color: #fff;
+    font-weight: normal;
+    line-height: 1.4;
+    width: 100%;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}
+.buttons-container button{
+    border-radius: 3px;
+    padding-left: calc(3.6rem / 2);
+    padding-right: calc(3.6rem / 2);
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    color: black;
+    transition: all .3s;
+    cursor: pointer;
+    font-size: var(--font-size-18);
+    border: 0;
+    margin-right: 1rem;
+}
+.buttons-container svg{
+    width: 25px;
+    margin-bottom: -5px;
+}
+.buttons-container .play-button{
+    background: white;
+    color: black;
+    border: 0;
+}
+.buttons-container .more-info-button{
+    background-color: rgba(133,133,133,0.6);
+    color: white;
+    font-weight: bold;
+}
+.play-button a{
+    color: black;
+}

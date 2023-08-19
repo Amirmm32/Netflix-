@@ -1,0 +1,138 @@
+/* <!--Login form styling start--> */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.loginContainer, .registerContainer{
+    max-width: 300px;
+    margin: auto;
+    background-color: black;
+    box-shadow: var(--box-shadow);
+    padding: 30px 60px 68px 40px;
+    border-radius: 3px;
+}
+.registerContainer{
+
+}
+.loginContainer h2, .registerContainer h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 28px !important;
+}
+
+#loginForm input, #loginForm button,#registerForm input, #registerForm button{
+    padding: 16px 5px;
+    margin-top: 30px;
+    border: 0;
+}
+#loginForm input, #registerForm input{
+    background: #333;
+    color: white;
+    border-radius: 3px;
+}
+#loginForm #email{
+    margin: 0;
+}
+
+#loginForm .para, #registerForm .para{
+    margin-top: 20px;
+    color: gray;
+    position: relative;
+}
+#registerForm .para a, #loginForm .para a{
+    color: white;
+    position: absolute;
+    display: inline-block;
+    right: 0;
+}
+#loginForm #errorEmail, #errorPassword, #registerForm #errorEmail, #registerForm #errorPassword{
+    color: #E87C03;
+    font-size: 14px;
+}
+#loginForm p .signUp, #registerForm p .signIn{
+    color: white;
+}
+#login, #register{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.8) 0%,
+            rgba(0, 0, 0, 0.2) 60%,
+            rgba(0, 0, 0, 0.9) 100%
+    ),
+    url('../../public/images/netflix clone home page background image multiple shows collage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.logoutContainer{
+    color: black;
+    max-width: 400px;
+    background: white;
+    margin: auto;
+    margin-top: 60px;
+    padding: 30px;
+    border-radius: 3px;
+}
+.logoutContainer p{
+    margin-top: 20px;
+}
+.logoutContainer button{
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 20px;
+}
+.logoutButton{
+    background: #0080ff;
+}
+#logout {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0.9) 100%),
+    url('../../public/images/logout.jpg');
+}
+#register{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.8) 0%,
+            rgba(0, 0, 0, 0.2) 60%,
+            rgba(0, 0, 0, 0.9) 100%
+    ),
+    url('../../public/images/netflix clone home page background image multiple shows collage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/*!* Header Styles *!*/
+/*header img {*/
+/*    height: 50px;*/
+/*    width: 170px;*/
+/*}*/
+
+
+body,html{
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    z-index: -1;
+}
+/* main styling start */
+header, .container, .mylist, .continue-watching{
+    z-index: 10;
+}
+.image-size{
+    max-width: 94%;
+}
+
+

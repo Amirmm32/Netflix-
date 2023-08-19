@@ -1,0 +1,49 @@
+/* NetflixRegister.css */
+
+
+
+/* Header Styles */
+header img {
+    height: 50px;
+    width: 170px;
+}
+
+/* Button Styles */
+.button {
+    /* Add any specific styles for the button here */
+}
+
+/* Register Form Styles */
+#login-form-section {
+    /* Add any specific styles for the login form section here */
+}
+
+.loginContainer {
+    /* Add any specific styles for the login container here */
+}
+
+.formtitle {
+    /* Add any specific styles for the form title here */
+}
+
+.email,
+#password {
+    /* Add any specific styles for the input fields here */
+}
+
+#errorEmail,
+#errorPassword {
+    display: none; /* Initially hide the error messages */
+}
+
+.submitButton {
+    /* Add any specific styles for the submit button here */
+}
+
+.signUpText {
+    /* Add any specific styles for the sign-up text here */
+}
+
+.bottomMessage {
+    /* Add any specific styles for the bottom message here */
+}
